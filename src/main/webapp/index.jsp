@@ -62,8 +62,14 @@
     <div class="row">
         <div class="col-md-4">
             <h2>Heading</h2>
-            <p>വെടിയുണ്ടകൾ പാക്ക് നിർമിതം? Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <h1 class="monospaced">git commit</h1>
+<p><strong>The "commit" command is used to save your changes to the local repository.</strong></p>
+<p>Note that you have to explicitly <em>tell</em> Git which changes you want to include in a commit <em>before</em> running the "git commit" command. This means that a file won't be <em>automatically</em> included in the next commit just because it was changed. Instead, you need to use the "git add" command to mark the desired changes for inclusion.</p>
+<p>Also note that in Git (not like in Subversion), a commit is <em>not</em> automatically transferred to the remote server. Using the "git commit" command only saves a new commit object in the <em>local</em> Git repository. Exchanging commits has to be performed manually and explicitly (with the "git fetch", "git pull", and "git push" commands).</p>
+<h2>Important Options</h2>
+<h4 class="monospaced bold">-m &lt;message&gt;</h4>
+<p><strong>Sets the commit's message.</strong> Make sure to provide a concise description that helps your teammates (and yourself) understand what happened.</p>
+<h4 class="monospaced bold">-a</h4>
         </div>
         <div class="col-md-4">
             <h2>Heading</h2>
